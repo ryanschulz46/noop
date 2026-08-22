@@ -89,7 +89,9 @@ _(QB count tracking + who took the fades)_
 | 60 | TreVeyon Henderson RB NE | First Down Syndrome | |
 | 61 | **Drake Maye QB NE** | ACLoholics Anonymous | **count 5** |
 | 62 | Bhayshul Tuten RB JAX | Critical Chase Theory | |
+| 63 | Carnell Tate WR TEN | Rachaad White Powr | rookie WR gone |
+| 64 | Courtland Sutton WR DEN | Taint Hair | |
 
 ## QB counter
 
-Gone after pick 62: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 64: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
