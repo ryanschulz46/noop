@@ -53,7 +53,10 @@ _(QB count tracking + who took the fades)_
 | 20 | Javonte Williams RB DAL | Intentionally Terrible | |
 | 21 | Omarion Hampton RB LAC | Taint Hair | |
 | 22 | Rashee Rice WR KC | Rachaad White Powr | |
+| 23 | Nico Collins WR HOU | Critical Chase Theory | |
+| 24 | Josh Jacobs RB GB | ACLoholics Anonymous | groin + suspension risk — their problem now |
+| 25 | A.J. Brown WR NE | First Down Syndrome | |
 
 ## QB counter
 
-Gone after pick 22: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 25: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
