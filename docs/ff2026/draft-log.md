@@ -106,9 +106,19 @@ _(QB count tracking + who took the fades)_
 | 79 | Dallas Goedert TE PHI | Critical Chase Theory | |
 | 80 | Tucker Kraft TE GB | ACLoholics Anonymous | **12 TEs gone by 80 — LaPorta at 71 fully vindicated** |
 | 81 | Rico Dowdle RB PIT | First Down Syndrome | |
+| 82 | Alec Pierce WR IND | King of Kips Bay | |
+| 83 | DK Metcalf WR PIT | Throwsa Parks | |
+| 84 | **Bo Nix QB DEN** | Hawk Tua and Pitt on That Thang | count 8 |
+| 85 | Matthew Golden WR GB | Hawk Tua and Pitt on That Thang | |
+| 86 | Chuba Hubbard RB CAR | Throwsa Parks | fade (hamstring) — their problem |
+| 87 | **Brock Purdy QB SF** | King of Kips Bay | count 9 |
+| 88 | **Seahawks D/ST** | First Down Syndrome | **FIRST D/ST — ESPN-early run starting, as predicted** |
+| 89 | Parker Washington WR JAX | ACLoholics Anonymous | |
+| 90 | **Trevor Lawrence QB JAX** | Critical Chase Theory | count 10 |
+| 91 | Jake Ferguson TE DAL | Rachaad White Powr | 13 TEs gone |
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
 
-Gone after pick 81: 7 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 91: 10 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
