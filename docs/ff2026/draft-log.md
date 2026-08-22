@@ -154,6 +154,12 @@ _(QB count tracking + who took the fades)_
 
 **RB RUN: 5 backs gone picks 116-119. Gainwell, Jones, Harvey, Croskey-Merritt all off.**
 
+| 123 | Caleb Williams QB CHI | Rachaad White Powr | |
+
+**RB board at my 126/127:** Mason 143.8 (b6) · Spears 129.7 (b9) · Charbonnet 123.8 (b11, **O**) ·
+Marks 115.7 (b8) · Pacheco 114.9 (b6, Q) · Kamara 100.9 (b8, Q) · B.Robinson 89.6 · Allgeier 82.2 ·
+K.Mitchell 83.9 · Coleman 65.8 · Bigsby 62.4 · Ray Davis 34.3
+
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
