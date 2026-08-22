@@ -56,7 +56,11 @@ _(QB count tracking + who took the fades)_
 | 23 | Nico Collins WR HOU | Critical Chase Theory | |
 | 24 | Josh Jacobs RB GB | ACLoholics Anonymous | groin + suspension risk — their problem now |
 | 25 | A.J. Brown WR NE | First Down Syndrome | |
+| ~26-28 | Cam Skattebo RB NYG · Brock Bowers TE LV · Trey McBride TE ARI | (various) | both elite TEs gone — 42 TE pivot dead, Kraft at 71 stands |
+| 29 | Chris Olave WR NO | Hawk Tua and Pitt on That Thang | |
+| 30 | **Josh Allen QB BUF** | Throwsa Parks | **FIRST QB — cascade watch ON** |
+| 31 | Kyren Williams RB LAR | King of Kips Bay | |
 
 ## QB counter
 
-Gone after pick 25: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 31: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
