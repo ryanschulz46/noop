@@ -116,9 +116,15 @@ _(QB count tracking + who took the fades)_
 | 89 | Parker Washington WR JAX | ACLoholics Anonymous | |
 | 90 | **Trevor Lawrence QB JAX** | Critical Chase Theory | count 10 |
 | 91 | Jake Ferguson TE DAL | Rachaad White Powr | 13 TEs gone |
+| 92 | Brian Thomas Jr. WR JAX | Taint Hair | |
+| 93 | Jordan Addison WR MIN | Intentionally Terrible | |
+| 94 | **Jaxson Dart QB NYG** | Feather, Cap, and Hog Reveal | count 11 |
+| 95 | **Dak Prescott QB DAL** | Spencer says the Nabers Word | count 12 — only 2 teams left without a QB |
+| 96 | Mark Andrews TE BAL | Barklie Kirk | |
+| 97 | Jonathon Brooks RB CAR | Amon Raw Doggin | |
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
 
-Gone after pick 91: 10 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 97: 12 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
