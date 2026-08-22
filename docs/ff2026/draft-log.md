@@ -10,8 +10,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 | 2 | 15 | **Ashton Jeanty** | RB | LV (bye 13) | Chase Brown → Hampton → Walker III | upgraded: falling 1st-rounder |
 | 3 | 42 | **Emeka Egbuka** | WR | TB (bye 10) | shelf pick | QB count was 1 — held |
 | 4 | 43 | **Ladd McConkey** | WR | LAC (bye 7) | shelf pick | |
-| 5 | 70 | — | | | QB deadline | |
-| 6 | 71 | — | | | Kraft → Pitts → LaPorta | |
+| 5 | 70 | **Joe Burrow** | QB | CIN (bye 6) | QB deadline | QB4 ADP 54.6 — got him 16 picks late |
+| 6 | 71 | **Sam LaPorta** | TE | DET (bye 6) | I said flex, took TE | defensible — 6 TEs gone by 71, run was faster than modeled |
 | 7 | 98 | — | | | RB3: Warren → Pollard → Dowdle | |
 | 8 | 99 | — | | | best RB/WR (Tyson if there) | |
 | 9 | 126 | — | | | D/ST: PHI → PIT → NE → BAL | |
@@ -96,7 +96,10 @@ _(QB count tracking + who took the fades)_
 | 67 | Rhamondre Stevenson RB NE | Spencer says the Nabers Word | |
 | 68 | Mike Evans WR SF | Barklie Kirk | Stribling path clearer if Evans' quad lingers |
 | 69 | Kyle Pitts Sr. TE ATL | Amon Raw Doggin | 2nd TE off in 14 picks — TE band thinning |
+| 72 | Jaylen Warren RB PIT | Amon Raw Doggin | |
+
+**Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
 
-Gone after pick 69: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 72: 6 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
