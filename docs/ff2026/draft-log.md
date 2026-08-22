@@ -71,7 +71,11 @@ _(QB count tracking + who took the fades)_
 | 40 | DeVonta Smith WR PHI | Barklie Kirk | |
 | 41 | Tetairoa McMillan WR CAR | Amon Raw Doggin | sniped |
 | 44 | Jaylen Waddle WR DEN | Amon Raw Doggin | |
+| 45 | Tee Higgins WR CIN | Barklie Kirk | do-not-draft (personal) — no loss |
+| 46 | Quinshon Judkins RB CLE | Spencer says the Nabers Word | |
+| 47 | Terry McLaurin WR WAS | Feather, Cap, and Hog Reveal | |
+| 48 | **Lamar Jackson QB BAL** | Intentionally Terrible | **QB2 gone — count now 2** |
 
 ## QB counter
 
-Gone after pick 44: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 48: 2 (Allen@30, Lamar@48) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
