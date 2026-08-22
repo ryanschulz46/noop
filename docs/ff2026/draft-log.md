@@ -6,8 +6,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 
 | # | Overall | Player | Pos | Team | Plan said | Notes |
 |---|---|---|---|---|---|---|
-| 1 | 14 | — | | | Barkley → C.Brown → Henry | |
-| 2 | 15 | — | | | Chase Brown → Hampton → Walker III | |
+| 1 | 14 | **Saquon Barkley** | RB | PHI (bye 10) | Barkley → C.Brown → Henry | plan hit — fell through 13 |
+| 2 | 15 | **Ashton Jeanty** | RB | LV (bye 13) | Chase Brown → Hampton → Walker III | upgraded: falling 1st-rounder |
 | 3 | 42 | — | | | G.Wilson → Higgins → McMillan → Egbuka (QB if 4+ gone) | |
 | 4 | 43 | — | | | next WR of that tier | |
 | 5 | 70 | — | | | QB deadline | |
@@ -45,7 +45,12 @@ _(QB count tracking + who took the fades)_
 | 10 | Christian McCaffrey RB SF | Feather, Cap, and Hog Reveal | the Q didn't scare them |
 | 11 | CeeDee Lamb WR DAL | Spencer says the Nabers Word | |
 | 12 | James Cook III RB BUF | Barklie Kirk | |
+| 13 | Justin Jefferson WR MIN | Amon Raw Doggin | |
+| 16 | Chase Brown RB CIN | Amon Raw Doggin | |
+| 17 | Kenneth Walker III RB KC | Barklie Kirk | |
+| 18 | Drake London WR ATL | Spencer says the Nabers Word | |
+| 19 | Jeremiyah Love RB ARI | Feather, Cap, and Hog Reveal | they ate the ankle risk, not us |
 
 ## QB counter
 
-Gone: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 19: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
