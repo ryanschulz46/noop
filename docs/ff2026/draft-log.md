@@ -128,6 +128,16 @@ _(QB count tracking + who took the fades)_
 **Bye map:** 6 Burrow+LaPorta · 7 McConkey+Diggs · 10 Barkley+Egbuka+DEN · 13 Jeanty
 **RB depth: ONLY 2. Biggest fragility.**
 
+| 100 | Michael Wilson WR ARI | Amon Raw Doggin | |
+| 101 | Blake Corum RB LAR | Barklie Kirk | RB target gone |
+| 102 | Jakobi Meyers WR JAX | Spencer says the Nabers Word | |
+| 103 | T.J. Hockenson TE MIN | Feather, Cap, and Hog Reveal | |
+| 104 | J.K. Dobbins RB DEN | Intentionally Terrible | **RB target gone — 126/127 RB pool thinning fast** |
+| 105 | Justin Herbert QB LAC | Taint Hair | count 13 |
+| 106 | Rachaad White RB WAS | Rachaad White Powr | RB target gone |
+| 107 | Wan'Dale Robinson WR TEN | Critical Chase Theory | |
+| 108 | Chris Godwin Jr. WR TB | ACLoholics Anonymous | |
+
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
