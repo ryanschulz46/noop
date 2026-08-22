@@ -82,7 +82,14 @@ _(QB count tracking + who took the fades)_
 | 53 | **Jalen Hurts QB PHI** | First Down Syndrome | **count 4 — CASCADE LIVE, 3 QBs in 6 picks** |
 | 54 | DJ Moore WR BUF | King of Kips Bay | |
 | 55 | Rome Odunze WR CHI | Throwsa Parks | cascade paused — 2 straight WRs |
+| 56 | Tyler Warren TE IND | Hawk Tua and Pitt on That Thang | TE4 gone — elite TE tier fully cleared |
+| 57 | Luther Burden III WR CHI | Hawk Tua and Pitt on That Thang | fade (groin) — their problem |
+| 58 | Jadarian Price RB SEA | Throwsa Parks | fade (RB2 behind Charbonnet) — their problem |
+| 59 | David Montgomery RB HOU | King of Kips Bay | |
+| 60 | TreVeyon Henderson RB NE | First Down Syndrome | |
+| 61 | **Drake Maye QB NE** | ACLoholics Anonymous | **count 5** |
+| 62 | Bhayshul Tuten RB JAX | Critical Chase Theory | |
 
 ## QB counter
 
-Gone after pick 55: 4 (Allen@30, Lamar@48, Daniels@50, Hurts@53) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 62: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
