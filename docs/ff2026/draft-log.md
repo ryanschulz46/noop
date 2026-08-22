@@ -75,7 +75,12 @@ _(QB count tracking + who took the fades)_
 | 46 | Quinshon Judkins RB CLE | Spencer says the Nabers Word | |
 | 47 | Terry McLaurin WR WAS | Feather, Cap, and Hog Reveal | |
 | 48 | **Lamar Jackson QB BAL** | Intentionally Terrible | **QB2 gone — count now 2** |
+| 49 | Bucky Irving RB TB | Taint Hair | |
+| 50 | **Jayden Daniels QB WAS** | Rachaad White Powr | count 3 |
+| 51 | Jameson Williams WR DET | Critical Chase Theory | |
+| 52 | D'Andre Swift RB CHI | ACLoholics Anonymous | |
+| 53 | **Jalen Hurts QB PHI** | First Down Syndrome | **count 4 — CASCADE LIVE, 3 QBs in 6 picks** |
 
 ## QB counter
 
-Gone after pick 48: 2 (Allen@30, Lamar@48) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 53: 4 (Allen@30, Lamar@48, Daniels@50, Hurts@53) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
