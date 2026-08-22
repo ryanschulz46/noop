@@ -137,6 +137,13 @@ _(QB count tracking + who took the fades)_
 | 106 | Rachaad White RB WAS | Rachaad White Powr | RB target gone |
 | 107 | Wan'Dale Robinson WR TEN | Critical Chase Theory | |
 | 108 | Chris Godwin Jr. WR TB | ACLoholics Anonymous | |
+| 109 | Quentin Johnston WR LAC | First Down Syndrome | |
+| 110 | Kyle Monangai RB CHI | King of Kips Bay | **last good RB gone** |
+| 111 | Khalil Shakir WR BUF | Throwsa Parks | |
+| 112 | Travis Hunter WR/CB JAX | Hawk Tua and Pitt on That Thang | |
+| 113 | Xavier Worthy WR KC | Hawk Tua and Pitt on That Thang | |
+| 114 | Jayden Reed WR GB | Throwsa Parks | |
+| 115 | De'Zhaun Stribling WR SF | King of Kips Bay | our rookie watch — gone |
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
