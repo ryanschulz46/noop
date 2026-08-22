@@ -20,6 +20,13 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 | 12 | 155 | — | | | upside RB/WR | |
 | 13 | 182 | — | | | last dart (Sadiq?) | |
 
+## Board state — pre-pick-14 screenshot (~7 picks in)
+
+ESPN ranks 1-5, 7, 8 off the board. Still available: McCaffrey(Q, 303.6 proj), Lamb 241.9,
+Achane 261.1, Jefferson 238.3, Cook 261.7, Jeanty 248.2, London 218.7, Love(Q) 245.9, Rice 222.8,
+McBride(TE) 188, Barkley 252, Henry 264.1, C.Brown 239.9, Walker 249.8, Hampton 235.9, Hall(Q) 248.2.
+Zero QBs drafted so far. ESPN league-scoring projections rank Henry(264) > Cook(262) > Achane(261) > Barkley(252).
+
 ## Other teams' notable picks
 
 _(QB count tracking + who took the fades)_
