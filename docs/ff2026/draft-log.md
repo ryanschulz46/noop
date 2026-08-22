@@ -50,7 +50,10 @@ _(QB count tracking + who took the fades)_
 | 17 | Kenneth Walker III RB KC | Barklie Kirk | |
 | 18 | Drake London WR ATL | Spencer says the Nabers Word | |
 | 19 | Jeremiyah Love RB ARI | Feather, Cap, and Hog Reveal | they ate the ankle risk, not us |
+| 20 | Javonte Williams RB DAL | Intentionally Terrible | |
+| 21 | Omarion Hampton RB LAC | Taint Hair | |
+| 22 | Rashee Rice WR KC | Rachaad White Powr | |
 
 ## QB counter
 
-Gone after pick 19: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 22: 0 — **trigger: 4+ gone at pick 42 → take QB at 42/43**
