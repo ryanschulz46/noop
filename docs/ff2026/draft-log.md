@@ -16,8 +16,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 | 8 | 99 | **Broncos D/ST** | D/ST | DEN (bye 10) | bench | D/ST secured early — only 2nd off board |
 | 9 | 126 | **Zach Charbonnet** | RB | SEA (bye 11) | D/ST already taken @99 | SEA RB1 — Walker III left for KC. Carries an O flag |
 | 10 | 127 | **Jordan Mason** | RB | MIN (bye 6) | RB target | best RB on board, 143.8 |
-| 11 | 154 | — | | | K: Bates → Mevis | |
-| 12 | 155 | — | | | upside RB/WR | |
+| 11 | 154 | **Tank Bigsby** | RB | PHI (bye 10) | K was slotted | Barkley handcuff — took scarce thing first |
+| 12 | 155 | **Jake Bates** | K | DET (bye 6) | kicker | |
 | 13 | 182 | — | | | last dart (Sadiq?) | |
 
 ## Board state — pre-pick-14 screenshot (~7 picks in)
@@ -164,6 +164,9 @@ _(QB count tracking + who took the fades)_
 | 145-149 | **K RUN: Dicker, Myers, Mevis, Fairbairn, Pineiro** | various | 6 kickers gone in 8 picks |
 | 150 | Jalen Coker WR CAR | Feather, Cap, and Hog Reveal | 182 target gone |
 | 151 | Kyler Murray QB MIN | Spencer says the Nabers Word | |
+| 152 | Alvin Kamara RB NO | Barklie Kirk | |
+| 153 | Eagles D/ST PHI | Amon Raw Doggin | |
+| 156-161 | Allgeier · Mayfield · Browns D/ST · Patriots D/ST · Lions D/ST · Juwan Johnson | various | 10 D/ST gone |
 
 **RB board at my 126/127:** Mason 143.8 (b6) · Spears 129.7 (b9) · Charbonnet 123.8 (b11, **O**) ·
 Marks 115.7 (b8) · Pacheco 114.9 (b6, Q) · Kamara 100.9 (b8, Q) · B.Robinson 89.6 · Allgeier 82.2 ·
