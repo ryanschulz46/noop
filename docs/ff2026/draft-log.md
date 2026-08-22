@@ -144,6 +144,15 @@ _(QB count tracking + who took the fades)_
 | 113 | Xavier Worthy WR KC | Hawk Tua and Pitt on That Thang | |
 | 114 | Jayden Reed WR GB | Throwsa Parks | |
 | 115 | De'Zhaun Stribling WR SF | King of Kips Bay | our rookie watch — gone |
+| 116 | Kenny Gainwell RB TB | First Down Syndrome | RB target gone |
+| 117 | Jacory Croskey-Merritt RB WAS | ACLoholics Anonymous | |
+| 118 | Aaron Jones Sr. RB MIN | Critical Chase Theory | RB target gone |
+| 119 | RJ Harvey RB DEN | Taint Hair | RB target gone |
+| 120 | Deebo Samuel Sr. WR SF | Intentionally Terrible | |
+| 121 | Patrick Mahomes QB KC | Feather, Cap, and Hog Reveal | count 14 — every team has a QB |
+| 122 | Josh Downs WR IND | Spencer says the Nabers Word | |
+
+**RB RUN: 5 backs gone picks 116-119. Gainwell, Jones, Harvey, Croskey-Merritt all off.**
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
