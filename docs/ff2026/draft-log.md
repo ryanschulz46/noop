@@ -161,6 +161,9 @@ _(QB count tracking + who took the fades)_
 | 129-141 | **D/ST RUN: Rams, Texans, Steelers, Ravens** + TE run (Likely, Kincaid, Henry) | various | 6 D/ST gone — Broncos at 99 vindicated |
 | 141 | Isiah Pacheco RB DET · Tyrone Tracy Jr. RB NYG | | |
 | 142 | **Brandon Aubrey K DAL** | Throwsa Parks | **FIRST KICKER — K run starting at 142** |
+| 145-149 | **K RUN: Dicker, Myers, Mevis, Fairbairn, Pineiro** | various | 6 kickers gone in 8 picks |
+| 150 | Jalen Coker WR CAR | Feather, Cap, and Hog Reveal | 182 target gone |
+| 151 | Kyler Murray QB MIN | Spencer says the Nabers Word | |
 
 **RB board at my 126/127:** Mason 143.8 (b6) · Spears 129.7 (b9) · Charbonnet 123.8 (b11, **O**) ·
 Marks 115.7 (b8) · Pacheco 114.9 (b6, Q) · Kamara 100.9 (b8, Q) · B.Robinson 89.6 · Allgeier 82.2 ·
