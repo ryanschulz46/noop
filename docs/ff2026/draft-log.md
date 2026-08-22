@@ -91,7 +91,12 @@ _(QB count tracking + who took the fades)_
 | 62 | Bhayshul Tuten RB JAX | Critical Chase Theory | |
 | 63 | Carnell Tate WR TEN | Rachaad White Powr | rookie WR gone |
 | 64 | Courtland Sutton WR DEN | Taint Hair | |
+| 65 | Christian Watson WR GB | Intentionally Terrible | |
+| 66 | Michael Pittman Jr. WR PIT | Feather, Cap, and Hog Reveal | |
+| 67 | Rhamondre Stevenson RB NE | Spencer says the Nabers Word | |
+| 68 | Mike Evans WR SF | Barklie Kirk | Stribling path clearer if Evans' quad lingers |
+| 69 | Kyle Pitts Sr. TE ATL | Amon Raw Doggin | 2nd TE off in 14 picks — TE band thinning |
 
 ## QB counter
 
-Gone after pick 64: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 69: 5 (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
