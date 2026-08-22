@@ -14,8 +14,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 | 6 | 71 | **Sam LaPorta** | TE | DET (bye 6) | I said flex, took TE | defensible — 6 TEs gone by 71, run was faster than modeled |
 | 7 | 98 | **Stefon Diggs** | WR | WAS (bye 7) | flex | took WR over Dobbins |
 | 8 | 99 | **Broncos D/ST** | D/ST | DEN (bye 10) | bench | D/ST secured early — only 2nd off board |
-| 9 | 126 | — | | | D/ST: PHI → PIT → NE → BAL | |
-| 10 | 127 | — | | | Stribling → Concepcion | |
+| 9 | 126 | **Zach Charbonnet** | RB | SEA (bye 11) | D/ST already taken @99 | SEA RB1 — Walker III left for KC. Carries an O flag |
+| 10 | 127 | **Jordan Mason** | RB | MIN (bye 6) | RB target | best RB on board, 143.8 |
 | 11 | 154 | — | | | K: Bates → Mevis | |
 | 12 | 155 | — | | | upside RB/WR | |
 | 13 | 182 | — | | | last dart (Sadiq?) | |
@@ -155,6 +155,8 @@ _(QB count tracking + who took the fades)_
 **RB RUN: 5 backs gone picks 116-119. Gainwell, Jones, Harvey, Croskey-Merritt all off.**
 
 | 123 | Caleb Williams QB CHI | Rachaad White Powr | |
+| 124 | Rashid Shaheed WR SEA | Barklie Kirk | |
+| 125 | KC Concepcion WR CLE | Amon Raw Doggin | our other rookie dart — gone |
 
 **RB board at my 126/127:** Mason 143.8 (b6) · Spears 129.7 (b9) · Charbonnet 123.8 (b11, **O**) ·
 Marks 115.7 (b8) · Pacheco 114.9 (b6, Q) · Kamara 100.9 (b8, Q) · B.Robinson 89.6 · Allgeier 82.2 ·
