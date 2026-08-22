@@ -8,8 +8,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 |---|---|---|---|---|---|---|
 | 1 | 14 | **Saquon Barkley** | RB | PHI (bye 10) | Barkley → C.Brown → Henry | plan hit — fell through 13 |
 | 2 | 15 | **Ashton Jeanty** | RB | LV (bye 13) | Chase Brown → Hampton → Walker III | upgraded: falling 1st-rounder |
-| 3 | 42 | — | | | G.Wilson → Higgins → McMillan → Egbuka (QB if 4+ gone) | |
-| 4 | 43 | — | | | next WR of that tier | |
+| 3 | 42 | **Emeka Egbuka** | WR | TB (bye 10) | shelf pick | QB count was 1 — held |
+| 4 | 43 | **Ladd McConkey** | WR | LAC (bye 7) | shelf pick | |
 | 5 | 70 | — | | | QB deadline | |
 | 6 | 71 | — | | | Kraft → Pitts → LaPorta | |
 | 7 | 98 | — | | | RB3: Warren → Pollard → Dowdle | |
@@ -68,7 +68,10 @@ _(QB count tracking + who took the fades)_
 | 37 | Davante Adams WR LAR | Intentionally Terrible | |
 | 38 | Breece Hall RB NYJ | Feather, Cap, and Hog Reveal | |
 | 39 | Malik Nabers WR NYG | Spencer says the Nabers Word | |
+| 40 | DeVonta Smith WR PHI | Barklie Kirk | |
+| 41 | Tetairoa McMillan WR CAR | Amon Raw Doggin | sniped |
+| 44 | Jaylen Waddle WR DEN | Amon Raw Doggin | |
 
 ## QB counter
 
-Gone after pick 39: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 44: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
