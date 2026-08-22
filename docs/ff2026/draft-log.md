@@ -97,9 +97,18 @@ _(QB count tracking + who took the fades)_
 | 68 | Mike Evans WR SF | Barklie Kirk | Stribling path clearer if Evans' quad lingers |
 | 69 | Kyle Pitts Sr. TE ATL | Amon Raw Doggin | 2nd TE off in 14 picks — TE band thinning |
 | 72 | Jaylen Warren RB PIT | Amon Raw Doggin | |
+| 73 | **Matthew Stafford QB LAR** | Barklie Kirk | count 7 |
+| 74 | Harold Fannin Jr. TE CLE | Spencer says the Nabers Word | |
+| 75 | Marvin Harrison Jr. WR ARI | Feather, Cap, and Hog Reveal | |
+| 76 | Travis Kelce TE KC | Intentionally Terrible | |
+| 77 | George Kittle TE SF | Taint Hair | |
+| 78 | Tony Pollard RB TEN | Rachaad White Powr | |
+| 79 | Dallas Goedert TE PHI | Critical Chase Theory | |
+| 80 | Tucker Kraft TE GB | ACLoholics Anonymous | **12 TEs gone by 80 — LaPorta at 71 fully vindicated** |
+| 81 | Rico Dowdle RB PIT | First Down Syndrome | |
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
 ## QB counter
 
-Gone after pick 72: 6 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 81: 7 (+Burrow@70 = mine) (Allen@30, Lamar@48, Daniels@50, Hurts@53, Maye@61) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
