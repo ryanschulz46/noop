@@ -80,7 +80,9 @@ _(QB count tracking + who took the fades)_
 | 51 | Jameson Williams WR DET | Critical Chase Theory | |
 | 52 | D'Andre Swift RB CHI | ACLoholics Anonymous | |
 | 53 | **Jalen Hurts QB PHI** | First Down Syndrome | **count 4 — CASCADE LIVE, 3 QBs in 6 picks** |
+| 54 | DJ Moore WR BUF | King of Kips Bay | |
+| 55 | Rome Odunze WR CHI | Throwsa Parks | cascade paused — 2 straight WRs |
 
 ## QB counter
 
-Gone after pick 53: 4 (Allen@30, Lamar@48, Daniels@50, Hurts@53) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 55: 4 (Allen@30, Lamar@48, Daniels@50, Hurts@53) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
