@@ -41,6 +41,8 @@ _(QB count tracking + who took the fades)_
 | 6 | Jonathan Taylor RB IND | Critical Chase Theory | |
 | 7 | Amon-Ra St. Brown WR DET | Rachaad White Powr | slight reach vs ADP 16.8 |
 | 8 | De'Von Achane RB MIA | Taint Hair | someone else ate the Miami risk — good |
+| 9 | Derrick Henry RB BAL | Intentionally Terrible | RB run on |
+| 10 | Christian McCaffrey RB SF | Feather, Cap, and Hog Reveal | the Q didn't scare them |
 
 ## QB counter
 
