@@ -60,7 +60,11 @@ _(QB count tracking + who took the fades)_
 | 29 | Chris Olave WR NO | Hawk Tua and Pitt on That Thang | |
 | 30 | **Josh Allen QB BUF** | Throwsa Parks | **FIRST QB — cascade watch ON** |
 | 31 | Kyren Williams RB LAR | King of Kips Bay | |
+| 32 | Colston Loveland TE CHI | First Down Syndrome | TE3 gone — TE run forming, watch Kraft |
+| 33 | George Pickens WR DAL | ACLoholics Anonymous | |
+| 34 | Zay Flowers WR BAL | Critical Chase Theory | |
+| 35 | Travis Etienne Jr. RB NO | Rachaad White Powr | |
 
 ## QB counter
 
-Gone after pick 31: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 35: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
