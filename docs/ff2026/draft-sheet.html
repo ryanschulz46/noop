@@ -1,0 +1,355 @@
+<title>The 14-Team Draft Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+
+<style>
+:root{
+  --ground:#F1F4F1; --surface:#FFFFFF; --surface-2:#E9EEEA;
+  --ink:#13201A; --ink-2:#33453C; --muted:#5B6A61; --line:#D6DED8;
+  --accent:#16624A; --accent-soft:#E1EFE7;
+  --signal:#B45309; --signal-soft:#FBEEDC;
+  --danger:#A3302A; --danger-soft:#F8E5E3;
+  --shadow:0 1px 2px rgba(19,32,26,.06), 0 4px 16px rgba(19,32,26,.05);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ground:#0D1512; --surface:#15201C; --surface-2:#1C2925;
+    --ink:#E7EDE8; --ink-2:#C2CFC7; --muted:#90A098; --line:#25332D;
+    --accent:#4FBF92; --accent-soft:#173229;
+    --signal:#E0A03F; --signal-soft:#31240F;
+    --danger:#E0705E; --danger-soft:#331A17;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0D1512; --surface:#15201C; --surface-2:#1C2925;
+  --ink:#E7EDE8; --ink-2:#C2CFC7; --muted:#90A098; --line:#25332D;
+  --accent:#4FBF92; --accent-soft:#173229;
+  --signal:#E0A03F; --signal-soft:#31240F;
+  --danger:#E0705E; --danger-soft:#331A17;
+  --shadow:0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--ground); color:var(--ink);
+  font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1080px; margin:0 auto; padding:0 24px 96px}
+h1,h2,h3,.disp{font-family:Oswald,"IBM Plex Sans",sans-serif; font-weight:500; letter-spacing:.01em; text-wrap:balance}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace}
+.nums{font-variant-numeric:tabular-nums}
+
+/* header */
+header{border-bottom:1px solid var(--line); background:var(--surface); margin-bottom:40px}
+.hd{max-width:1080px; margin:0 auto; padding:36px 24px 28px; display:flex; flex-direction:column; gap:14px}
+.eyebrow{font-family:"IBM Plex Mono",monospace; font-size:11.5px; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); font-weight:600}
+h1{font-size:clamp(34px,5.2vw,52px); line-height:1.04; margin:0; font-weight:600}
+.dek{font-size:17px; color:var(--ink-2); max-width:66ch; margin:0}
+.meta{display:flex; flex-wrap:wrap; gap:8px; margin-top:4px}
+.chip{font-family:"IBM Plex Mono",monospace; font-size:11.5px; padding:4px 9px; border:1px solid var(--line); border-radius:3px; color:var(--muted); background:var(--surface-2); font-variant-numeric:tabular-nums}
+
+/* nav */
+nav{position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--ground) 92%, transparent);
+    backdrop-filter:blur(8px); border-bottom:1px solid var(--line); margin-bottom:40px}
+.nv{max-width:1080px; margin:0 auto; padding:10px 24px; display:flex; gap:4px; overflow-x:auto}
+.nv a{font-family:"IBM Plex Mono",monospace; font-size:12px; color:var(--muted); text-decoration:none;
+      padding:6px 11px; border-radius:3px; white-space:nowrap; letter-spacing:.03em}
+.nv a:hover{color:var(--accent); background:var(--accent-soft)}
+.nv a:focus-visible{outline:2px solid var(--accent); outline-offset:2px}
+
+section{margin-bottom:56px; scroll-margin-top:64px}
+h2{font-size:13px; text-transform:uppercase; letter-spacing:.13em; color:var(--muted);
+   margin:0 0 20px; padding-bottom:9px; border-bottom:1px solid var(--line); font-weight:600}
+h3{font-size:20px; margin:0 0 8px; color:var(--ink)}
+p{margin:0 0 14px; max-width:68ch}
+.lead{font-size:17.5px; color:var(--ink-2)}
+strong{font-weight:600; color:var(--ink)}
+em{font-style:italic}
+
+/* the four edges */
+.edges{display:grid; grid-template-columns:repeat(auto-fit,minmax(228px,1fr)); gap:14px; margin-bottom:22px}
+.edge{background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:18px; box-shadow:var(--shadow)}
+.edge .n{font-family:"IBM Plex Mono",monospace; font-size:11px; color:var(--accent); letter-spacing:.1em; font-weight:600}
+.edge .big{font-family:Oswald,sans-serif; font-size:30px; line-height:1.1; margin:6px 0 6px; font-variant-numeric:tabular-nums; font-weight:500}
+.edge p{font-size:14px; color:var(--muted); margin:0}
+
+/* callouts */
+.rule{background:var(--surface); border:1px solid var(--line); border-left:3px solid var(--signal);
+      border-radius:0 5px 5px 0; padding:18px 20px; margin:0 0 14px; box-shadow:var(--shadow)}
+.rule.go{border-left-color:var(--accent)}
+.rule.no{border-left-color:var(--danger)}
+.rule h3{font-size:17px; margin-bottom:6px}
+.rule p{font-size:15px; margin:0; color:var(--ink-2)}
+.rule p + p{margin-top:9px}
+
+/* tables */
+.scroll{overflow-x:auto; border:1px solid var(--line); border-radius:5px; background:var(--surface); box-shadow:var(--shadow)}
+table{border-collapse:collapse; width:100%; min-width:640px; font-size:14px}
+th{background:var(--surface-2); font-family:"IBM Plex Mono",monospace; font-size:10.5px; letter-spacing:.09em;
+   text-transform:uppercase; color:var(--muted); text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); font-weight:600; white-space:nowrap}
+td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--surface-2)}
+td.tm{font-family:"IBM Plex Mono",monospace; font-weight:600; color:var(--accent); white-space:nowrap}
+td.sub{color:var(--muted); font-size:13px}
+.dcTable{min-width:900px; font-size:13.5px}
+.dcTable td{padding:7px 11px; white-space:nowrap}
+
+/* pills */
+.pill{display:inline-block; font-family:"IBM Plex Mono",monospace; font-size:10px; letter-spacing:.07em;
+      padding:2px 7px; border-radius:3px; text-transform:uppercase; font-weight:600; vertical-align:middle}
+.ok{background:var(--accent-soft); color:var(--accent)}
+.one{background:var(--signal-soft); color:var(--signal)}
+.un{background:var(--danger-soft); color:var(--danger)}
+
+ul{margin:0 0 14px; padding-left:20px; max-width:68ch}
+li{margin-bottom:7px}
+li::marker{color:var(--accent)}
+
+.note{background:var(--surface-2); border:1px solid var(--line); border-radius:5px; padding:16px 18px; font-size:14.5px; color:var(--ink-2)}
+.note p{max-width:none}
+.note p:last-child{margin-bottom:0}
+footer{border-top:1px solid var(--line); padding-top:22px; color:var(--muted); font-size:13px}
+a{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
+@media (max-width:600px){ .hd{padding:26px 20px 20px} .wrap{padding:0 20px 64px} }
+</style>
+
+<header>
+  <div class="hd">
+    <div class="eyebrow">14 Teams · 13 Rounds · 182 Picks · Half-PPR</div>
+    <h1>The 14-Team Draft Sheet</h1>
+    <p class="dek">Your scoring is stock ESPN, so there is no edge in the scoring. Every edge you have is
+    structural — and it comes down to four numbers.</p>
+    <div class="meta">
+      <span class="chip">Depth charts 2026-08-22 07:26Z</span>
+      <span class="chip">4 bench spots</span>
+      <span class="chip">4 of 14 make playoffs</span>
+      <span class="chip">90s per pick</span>
+    </div>
+  </div>
+</header>
+
+<nav><div class="nv">
+  <a href="#read">The read</a><a href="#budget">Pick budget</a><a href="#rules">Decision rules</a>
+  <a href="#slots">Slots 1-14</a><a href="#rookies">Rookies</a><a href="#depth">Depth charts</a>
+  <a href="#trust">What to verify</a>
+</div></nav>
+
+<div class="wrap">
+
+<section id="read">
+  <h2>The read</h2>
+  <p class="lead">The 4-point passing TD, the &minus;2 INT, half-PPR, the distance-tiered kicker scoring and
+  the D/ST points-<em>and</em>-yards brackets are all ESPN defaults. Consensus rankings already price every
+  one of them. Do not adjust your board for scoring — that double-counts and makes you reach.</p>
+  <p>What is genuinely non-standard is the shape of the league:</p>
+  <div class="edges">
+    <div class="edge"><div class="n">01</div><div class="big">14</div><p>teams, against advice written almost
+      entirely for 10 and 12. Every positional cliff arrives two picks earlier than the article says.</p></div>
+    <div class="edge"><div class="n">02</div><div class="big">4</div><p>bench spots, against ESPN's default of 7.
+      The single biggest deviation, and the one that should change the most behavior.</p></div>
+    <div class="edge"><div class="n">03</div><div class="big">28.6%</div><p>make the playoffs — 4 of 14. A slow
+      start is fatal, so a Week-10 breakout is worth a fraction of a Week-1 contributor.</p></div>
+    <div class="edge"><div class="n">04</div><div class="big">2wk</div><p>playoff matchups. Variance gets halved
+      in the rounds that decide it, which rewards the higher-floor roster.</p></div>
+  </div>
+  <div class="note"><p><strong>The counterintuitive one.</strong> 14 &times; 13 = <span class="mono">182</span>
+  players rostered, versus <span class="mono">192</span> in a standard 12-team/16-spot league. Your waiver wire
+  is <em>slightly richer</em>, not barren — and because nobody has bench room to stash, injured players and slow
+  rookies get <strong>dropped</strong> instead of hoarded. Skill-position churn works in your favor. Single-slot
+  scarcity does not.</p></div>
+</section>
+
+<section id="budget">
+  <h2>The pick budget</h2>
+  <p class="lead">You get <strong>13 picks</strong>. Two are spent on K and D/ST. That leaves
+  <strong>11 real players: 7 starters and 4 bench</strong> — the tightest constraint in the draft.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Position</th><th>Starters needed league-wide</th><th>Replacement level here</th><th>vs a 12-team league</th></tr></thead>
+    <tbody>
+      <tr><td class="tm">QB</td><td class="mono nums">14</td><td class="mono nums">~QB16-18</td><td class="sub">QB14 — waiting is far more punishing here</td></tr>
+      <tr><td class="tm">RB</td><td class="mono nums">28 + flex</td><td class="mono nums">~RB36</td><td class="sub">RB31</td></tr>
+      <tr><td class="tm">WR</td><td class="mono nums">28 + flex</td><td class="mono nums">~WR34</td><td class="sub">WR29</td></tr>
+      <tr><td class="tm">TE</td><td class="mono nums">14</td><td class="mono nums">~TE15-16</td><td class="sub">TE13 — the streaming tier is genuinely bad</td></tr>
+      <tr><td class="tm">D/ST</td><td class="mono nums">14</td><td class="mono nums">~D/ST15</td><td class="sub">D/ST13</td></tr>
+      <tr><td class="tm">K</td><td class="mono nums">14</td><td class="mono nums">~K15</td><td class="sub">K13</td></tr>
+    </tbody>
+  </table></div>
+  <p style="margin-top:16px">Target shape: <strong>1 QB · 4-5 RB · 4-5 WR · 1 TE · 1 D/ST · 1 K</strong>.
+  The four bench spots go to <em>startable</em> RB/WR with standalone value — not handcuffs, not stashes.</p>
+</section>
+
+<section id="rules">
+  <h2>Decision rules</h2>
+
+  <div class="rule">
+    <h3>QB — the trigger, not the round</h3>
+    <p>Your league runs on QBs, and 14 teams need 14 starters. Waiting is safe in a 12-team league because QB13
+    is startable; here QB15+ is not. Don't pick a round — pick a trigger.</p>
+    <p><strong>Rule: once 6 QBs are gone, you take yours within your next two picks.</strong> That leaves 8
+    startable arms for 8 remaining teams — after that you are drafting into the cliff, and the run is exactly
+    what makes it collapse fast. Roster <strong>one</strong> QB. A second costs 25% of your bench for a bye you
+    can stream around.</p>
+  </div>
+
+  <div class="rule go">
+    <h3>TE — pay up or punt, don't shop the middle</h3>
+    <p>Replacement is ~TE15-16 rather than TE13, which widens the elite-TE edge relative to a 12-team league even
+    after half-PPR takes ~2.5 PPG off a reception-heavy tight end. The middle tier is where you pay a real pick
+    for a marginal edge.</p>
+    <p><strong>Either take a top-3 TE at market price, or wait and take your TE in the last third of the draft.</strong>
+    Avoid the TE6-TE10 range entirely.</p>
+  </div>
+
+  <div class="rule">
+    <h3>D/ST — one round earlier than instinct</h3>
+    <p>The scoring is standard, but the tail is real: <span class="mono">&minus;7</span> at 550+ yards allowed and
+    <span class="mono">&minus;5</span> at 46+ points means a bad defense posts genuinely <em>negative</em> weeks, not
+    merely quiet ones. With 14 rostered, the streaming pool is thin.</p>
+    <p><strong>Take your D/ST in round 12, not 13</strong>, and take a unit with a good early schedule.</p>
+  </div>
+
+  <div class="rule no">
+    <h3>Bench — no handcuffs, no stashes</h3>
+    <p>Four bench spots is 56 player-weeks for the whole season. A speculative stash that pays off in Week 10 is
+    worth a fraction of a Week-1 contributor when only 4 of 14 teams advance. Every bench player should be someone
+    you would consider starting in the next three weeks.</p>
+    <p><strong>Kicker last, always.</strong> And never draft a second kicker or a third TE.</p>
+  </div>
+</section>
+
+<section id="slots">
+  <h2>Your 14 possible slots</h2>
+  <p>Order is randomized an hour out, so know your pick numbers before you see them. First five picks shown;
+  the pattern continues <span class="mono">&plusmn;</span> alternating through round 13.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Slot</th><th>First five picks</th><th>Natural build</th><th>Opening approach</th></tr></thead>
+    <tbody>
+<tr><td class="tm">1</td><td class="mono nums">1, 28, 29, 56, 57 …</td><td>Elite RB anchor</td><td class="sub">Gibbs/Bijan, then best WR at 28-29 turn</td></tr>
+<tr><td class="tm">2</td><td class="mono nums">2, 27, 30, 55, 58 …</td><td>Elite RB anchor</td><td class="sub">Bijan/Chase, WR-WR at the turn</td></tr>
+<tr><td class="tm">3</td><td class="mono nums">3, 26, 31, 54, 59 …</td><td>Elite RB or Chase</td><td class="sub">Chase if there, else RB1 tier</td></tr>
+<tr><td class="tm">4</td><td class="mono nums">4, 25, 32, 53, 60 …</td><td>Balanced</td><td class="sub">Best of CMC / elite WR</td></tr>
+<tr><td class="tm">5</td><td class="mono nums">5, 24, 33, 52, 61 …</td><td>Balanced</td><td class="sub">WR-first if RB tier is gone</td></tr>
+<tr><td class="tm">6</td><td class="mono nums">6, 23, 34, 51, 62 …</td><td>WR-lean balanced</td><td class="sub">Take the WR value the RB run creates</td></tr>
+<tr><td class="tm">7</td><td class="mono nums">7, 22, 35, 50, 63 …</td><td>WR-lean balanced</td><td class="sub">Mid-first-round RB or alpha WR</td></tr>
+<tr><td class="tm">8</td><td class="mono nums">8, 21, 36, 49, 64 …</td><td>WR-lean balanced</td><td class="sub">Alpha WR, RB at the turn</td></tr>
+<tr><td class="tm">9</td><td class="mono nums">9, 20, 37, 48, 65 …</td><td>Hero-RB or WR-WR</td><td class="sub">Jeanty tier RB, or double WR</td></tr>
+<tr><td class="tm">10</td><td class="mono nums">10, 19, 38, 47, 66 …</td><td>WR-WR turn</td><td class="sub">Barkley/Achane range, pair with WR</td></tr>
+<tr><td class="tm">11</td><td class="mono nums">11, 18, 39, 46, 67 …</td><td>WR-WR turn</td><td class="sub">Back-to-back value at 11/18</td></tr>
+<tr><td class="tm">12</td><td class="mono nums">12, 17, 40, 45, 68 …</td><td>RB-WR turn</td><td class="sub">Achane tier + WR</td></tr>
+<tr><td class="tm">13</td><td class="mono nums">13, 16, 41, 44, 69 …</td><td>RB-WR turn</td><td class="sub">Two picks 3 apart — take the two best</td></tr>
+<tr><td class="tm">14</td><td class="mono nums">14, 15, 42, 43, 70 …</td><td>Double-anchor turn</td><td class="sub">Picks 14+15 back-to-back: best two available</td></tr>
+
+    </tbody>
+  </table></div>
+  <p style="margin-top:16px"><strong>Verified top of the board:</strong>
+  Jahmyr Gibbs <span class="mono">1.1</span> ·
+  Bijan Robinson <span class="mono">2.1</span> ·
+  Ja'Marr Chase <span class="mono">3.5</span> ·
+  Christian McCaffrey <span class="mono">5.8</span> ·
+  Ashton Jeanty <span class="mono">10.8</span> ·
+  Saquon Barkley <span class="mono">14.6</span> ·
+  De'Von Achane <span class="mono">15.0</span>
+  <span class="pill ok">corroborated</span></p>
+</section>
+
+<section id="rookies">
+  <h2>Rookies — draft one</h2>
+  <p class="lead">Verified against nflverse draft data and same-day ESPN depth charts, not article summaries.
+  Only one rookie belongs on a real board in this format.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Player</th><th>Pos</th><th>Team</th><th>Pick</th><th>Depth</th><th>Call</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Jeremiyah Love</strong> <span class="pill ok">confirmed</span></td><td class="tm">RB</td><td>ARI</td><td class="mono nums">1.03</td><td>RB1</td>
+        <td class="sub"><strong>Draft him.</strong> RB1 in every snapshot since April; the Allgeier committee story has no support in the data. Top-10 rookie RBs hit top-24 at ~75%.</td></tr>
+      <tr><td><strong>Carnell Tate</strong> <span class="pill ok">confirmed</span></td><td class="tm">WR</td><td>TEN</td><td class="mono nums">1.04</td><td>WR1</td>
+        <td class="sub">Worth it as a second rookie if the price is right. Top-10 rookie WRs hit top-36 at 60% vs 31.5% for picks 11-32.</td></tr>
+      <tr><td><strong>Jordyn Tyson</strong> <span class="pill ok">confirmed</span></td><td class="tm">WR</td><td>NO</td><td class="mono nums">1.08</td><td>WR2</td>
+        <td class="sub">Best surplus in the class — better capital and better volume than Lemon, several rounds cheaper.</td></tr>
+      <tr><td><strong>Jadarian Price</strong> <span class="pill un">fade</span></td><td class="tm">RB</td><td>SEA</td><td class="mono nums">1.32</td><td>RB2</td>
+        <td class="sub">Priced like a starter but sits behind Charbonnet in every snapshot. You would be paying a mid-round pick for a handcuff. Also: he is a <strong>Seahawk</strong> — some sources say Houston or KC, and they are wrong.</td></tr>
+      <tr><td><strong>Makai Lemon</strong> <span class="pill un">fade</span></td><td class="tm">WR</td><td>PHI</td><td class="mono nums">1.20</td><td>WR3</td>
+        <td class="sub">Demoted to WR3 in August, on a run-first offense.</td></tr>
+      <tr><td>Rookie QBs <span class="pill un">avoid</span></td><td class="tm">QB</td><td>—</td><td class="mono nums">—</td><td>backup</td>
+        <td class="sub">Fernando Mendoza went No. 1 overall and is <strong>QB2 behind Kirk Cousins</strong>. Every other rookie QB is QB2 or QB3.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="note" style="margin-top:16px"><p><strong>Free on waivers, not worth a pick:</strong>
+  Kaelon Black (SF) was promoted to RB2 behind a 30-year-old Christian McCaffrey on Aug 20 · Mike Washington Jr.
+  (LV) is RB2 behind Ashton Jeanty · Kenyon Sadiq (NYJ) is a rookie TE1 and the best waiver watch if you punt TE.</p>
+  <p><strong>Name trap:</strong> there is a 2026 rookie linebacker named Justin Jefferson (Cleveland). Unrelated to
+  the Vikings receiver, who is still Minnesota's WR1.</p></div>
+</section>
+
+<section id="depth">
+  <h2>Depth charts — all 32 teams</h2>
+  <p>ESPN depth charts as of <span class="mono">2026-08-22 07:26Z</span>, about nine hours before your draft.
+  Scan this before you trust any 2025-era instinct — the roster movement this offseason was unusually heavy.</p>
+  <div class="scroll"><table class="dcTable">
+    <thead><tr><th>Team</th><th>QB1</th><th>RB1</th><th>RB2</th><th>WR1</th><th>WR2</th><th>WR3</th><th>TE1</th></tr></thead>
+    <tbody>
+<tr><td class="tm">ARI</td><td>Jacoby Brissett</td><td>Jeremiyah Love</td><td>Tyler Allgeier</td><td>Marvin Harrison Jr.</td><td>Michael Wilson</td><td>Kendrick Bourne</td><td>Trey McBride</td></tr>
+<tr><td class="tm">ATL</td><td>Tua Tagovailoa</td><td>Bijan Robinson</td><td>Brian Robinson Jr.</td><td>Drake London</td><td>Jahan Dotson</td><td>Olamide Zaccheaus</td><td>Kyle Pitts Sr.</td></tr>
+<tr><td class="tm">BAL</td><td>Lamar Jackson</td><td>Derrick Henry</td><td>Justice Hill</td><td>Zay Flowers</td><td>Rashod Bateman</td><td>Ja'Kobi Lane</td><td>Mark Andrews</td></tr>
+<tr><td class="tm">BUF</td><td>Josh Allen</td><td>James Cook III</td><td>Ray Davis</td><td>DJ Moore</td><td>Khalil Shakir</td><td>Keon Coleman</td><td>Dalton Kincaid</td></tr>
+<tr><td class="tm">CAR</td><td>Bryce Young</td><td>Chuba Hubbard</td><td>Jonathon Brooks</td><td>Tetairoa McMillan</td><td>Jalen Coker</td><td>Xavier Legette</td><td>Tommy Tremble</td></tr>
+<tr><td class="tm">CHI</td><td>Caleb Williams</td><td>D'Andre Swift</td><td>Kyle Monangai</td><td>Rome Odunze</td><td>Luther Burden III</td><td>Kalif Raymond</td><td>Colston Loveland</td></tr>
+<tr><td class="tm">CIN</td><td>Joe Burrow</td><td>Chase Brown</td><td>Samaje Perine</td><td>Ja'Marr Chase</td><td>Tee Higgins</td><td>Andrei Iosivas</td><td>Mike Gesicki</td></tr>
+<tr><td class="tm">CLE</td><td>Deshaun Watson</td><td>Quinshon Judkins</td><td>Dylan Sampson</td><td>Jerry Jeudy</td><td>KC Concepcion</td><td>Denzel Boston</td><td>Harold Fannin Jr.</td></tr>
+<tr><td class="tm">DAL</td><td>Dak Prescott</td><td>Javonte Williams</td><td>Jaydon Blue</td><td>CeeDee Lamb</td><td>George Pickens</td><td>Ryan Flournoy</td><td>Jake Ferguson</td></tr>
+<tr><td class="tm">DEN</td><td>Bo Nix</td><td>J.K. Dobbins</td><td>RJ Harvey</td><td>Courtland Sutton</td><td>Jaylen Waddle</td><td>Troy Franklin</td><td>Evan Engram</td></tr>
+<tr><td class="tm">DET</td><td>Jared Goff</td><td>Jahmyr Gibbs</td><td>Isiah Pacheco</td><td>Amon-Ra St. Brown</td><td>Jameson Williams</td><td>Isaac TeSlaa</td><td>Sam LaPorta</td></tr>
+<tr><td class="tm">GB</td><td>Jordan Love</td><td>Josh Jacobs</td><td>MarShawn Lloyd</td><td>Christian Watson</td><td>Jayden Reed</td><td>Matthew Golden</td><td>Tucker Kraft</td></tr>
+<tr><td class="tm">HOU</td><td>C.J. Stroud</td><td>David Montgomery</td><td>Woody Marks</td><td>Nico Collins</td><td>Xavier Hutchinson</td><td>Jaylin Noel</td><td>Dalton Schultz</td></tr>
+<tr><td class="tm">IND</td><td>Daniel Jones</td><td>Jonathan Taylor</td><td>DJ Giddens</td><td>Alec Pierce</td><td>Josh Downs</td><td>Keenan Allen</td><td>Tyler Warren</td></tr>
+<tr><td class="tm">JAX</td><td>Trevor Lawrence</td><td>Bhayshul Tuten</td><td>Chris Rodriguez Jr.</td><td>Brian Thomas Jr.</td><td>Parker Washington</td><td>Jakobi Meyers</td><td>Brenton Strange</td></tr>
+<tr><td class="tm">KC</td><td>Patrick Mahomes</td><td>Kenneth Walker III</td><td>Emari Demercado</td><td>Rashee Rice</td><td>Xavier Worthy</td><td>Tyquan Thornton</td><td>Travis Kelce</td></tr>
+<tr><td class="tm">LA</td><td>Matthew Stafford</td><td>Kyren Williams</td><td>Blake Corum</td><td>Puka Nacua</td><td>Davante Adams</td><td>Jordan Whittington</td><td>Colby Parkinson</td></tr>
+<tr><td class="tm">LAC</td><td>Justin Herbert</td><td>Omarion Hampton</td><td>Keaton Mitchell</td><td>Ladd McConkey</td><td>Quentin Johnston</td><td>Tre' Harris</td><td>Oronde Gadsden</td></tr>
+<tr><td class="tm">LV</td><td>Kirk Cousins</td><td>Ashton Jeanty</td><td>Mike Washington Jr.</td><td>Tre Tucker</td><td>Jalen Nailor</td><td>Jack Bech</td><td>Brock Bowers</td></tr>
+<tr><td class="tm">MIA</td><td>Malik Willis</td><td>De'Von Achane</td><td>Jaylen Wright</td><td>Malik Washington</td><td>Jalen Tolbert</td><td>Caleb Douglas</td><td>Greg Dulcich</td></tr>
+<tr><td class="tm">MIN</td><td>Kyler Murray</td><td>Aaron Jones Sr.</td><td>Jordan Mason</td><td>Justin Jefferson</td><td>Jordan Addison</td><td>Jauan Jennings</td><td>T.J. Hockenson</td></tr>
+<tr><td class="tm">NE</td><td>Drake Maye</td><td>Rhamondre Stevenson</td><td>TreVeyon Henderson</td><td>A.J. Brown</td><td>Romeo Doubs</td><td>DeMario Douglas</td><td>Hunter Henry</td></tr>
+<tr><td class="tm">NO</td><td>Tyler Shough</td><td>Travis Etienne Jr.</td><td>Alvin Kamara</td><td>Chris Olave</td><td>Jordyn Tyson</td><td>Devaughn Vele</td><td>Juwan Johnson</td></tr>
+<tr><td class="tm">NYG</td><td>Jaxson Dart</td><td>Cam Skattebo</td><td>Tyrone Tracy Jr.</td><td>Malik Nabers</td><td>Darius Slayton</td><td>Calvin Austin III</td><td>Isaiah Likely</td></tr>
+<tr><td class="tm">NYJ</td><td>Geno Smith</td><td>Breece Hall</td><td>Braelon Allen</td><td>Garrett Wilson</td><td>Adonai Mitchell</td><td>Omar Cooper Jr.</td><td>Kenyon Sadiq</td></tr>
+<tr><td class="tm">PHI</td><td>Jalen Hurts</td><td>Saquon Barkley</td><td>Tank Bigsby</td><td>DeVonta Smith</td><td>Dontayvion Wicks</td><td>Makai Lemon</td><td>Dallas Goedert</td></tr>
+<tr><td class="tm">PIT</td><td>Aaron Rodgers</td><td>Jaylen Warren</td><td>Rico Dowdle</td><td>DK Metcalf</td><td>Michael Pittman Jr.</td><td>Roman Wilson</td><td>Pat Freiermuth</td></tr>
+<tr><td class="tm">SEA</td><td>Sam Darnold</td><td>Zach Charbonnet</td><td>Jadarian Price</td><td>Jaxon Smith-Njigba</td><td>Rashid Shaheed</td><td>Cooper Kupp</td><td>AJ Barner</td></tr>
+<tr><td class="tm">SF</td><td>Brock Purdy</td><td>Christian McCaffrey</td><td>Kaelon Black</td><td>Mike Evans</td><td>Deebo Samuel</td><td>Christian Kirk</td><td>George Kittle</td></tr>
+<tr><td class="tm">TB</td><td>Baker Mayfield</td><td>Bucky Irving</td><td>Kenny Gainwell</td><td>Emeka Egbuka</td><td>Chris Godwin Jr.</td><td>Jalen McMillan</td><td>Cade Otton</td></tr>
+<tr><td class="tm">TEN</td><td>Cam Ward</td><td>Tony Pollard</td><td>Tyjae Spears</td><td>Carnell Tate</td><td>Wan'Dale Robinson</td><td>Calvin Ridley</td><td>Gunnar Helm</td></tr>
+<tr><td class="tm">WAS</td><td>Jayden Daniels</td><td>Jacory Croskey-Merritt</td><td>Rachaad White</td><td>Terry McLaurin</td><td>Stefon Diggs</td><td>Luke McCaffrey</td><td>Chig Okonkwo</td></tr>
+
+    </tbody>
+  </table></div>
+</section>
+
+<section id="trust">
+  <h2>What to verify before 2:00</h2>
+  <p>Being straight about provenance, because you are drafting on this.</p>
+  <ul>
+    <li><span class="pill ok">solid</span> <strong>Depth charts, draft picks, rookie roles.</strong> Read directly
+      from nflverse's machine-readable data — same-day, authoritative, not a summary.</li>
+    <li><span class="pill ok">solid</span> <strong>The structural strategy.</strong> Format arithmetic. It does not
+      depend on any external source.</li>
+    <li><span class="pill one">thin</span> <strong>ADP beyond the top ~10.</strong> Session search budget ran out
+      mid-research and most fantasy sites are blocked at the network level. Use ESPN's own board live for prices —
+      it is the same market that set the numbers above.</li>
+    <li><span class="pill un">unchecked</span> <strong>Injury news from the last few days.</strong> I could not
+      reach live injury reports. Check Jeremiyah Love's practice status specifically — if he is limited, drop him
+      a round or two.</li>
+  </ul>
+  <div class="note"><p>Sequence for the draft itself: trust ESPN's live board for <em>prices</em>, this sheet for
+  <em>roles and structure</em>. Where they disagree about who starts for a team, the depth chart above is nine hours
+  old and ESPN's blurbs may be older.</p></div>
+</section>
+
+<footer>
+  Built for a 14-team, half-PPR, 4-bench ESPN redraft league · Depth data: nflverse (ESPN-sourced), snapshot
+  2026-08-22 07:26Z · Player names and roles verified; ADP beyond the top of the board is not.
+</footer>
+</div>
