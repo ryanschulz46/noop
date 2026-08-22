@@ -12,8 +12,8 @@ Draft: 2026-08-22, 2:00 PM ET · ESPN · 13 rounds, 182 picks · Picks recorded 
 | 4 | 43 | **Ladd McConkey** | WR | LAC (bye 7) | shelf pick | |
 | 5 | 70 | **Joe Burrow** | QB | CIN (bye 6) | QB deadline | QB4 ADP 54.6 — got him 16 picks late |
 | 6 | 71 | **Sam LaPorta** | TE | DET (bye 6) | I said flex, took TE | defensible — 6 TEs gone by 71, run was faster than modeled |
-| 7 | 98 | — | | | RB3: Warren → Pollard → Dowdle | |
-| 8 | 99 | — | | | best RB/WR (Tyson if there) | |
+| 7 | 98 | **Stefon Diggs** | WR | WAS (bye 7) | flex | took WR over Dobbins |
+| 8 | 99 | **Broncos D/ST** | D/ST | DEN (bye 10) | bench | D/ST secured early — only 2nd off board |
 | 9 | 126 | — | | | D/ST: PHI → PIT → NE → BAL | |
 | 10 | 127 | — | | | Stribling → Concepcion | |
 | 11 | 154 | — | | | K: Bates → Mevis | |
@@ -122,6 +122,11 @@ _(QB count tracking + who took the fades)_
 | 95 | **Dak Prescott QB DAL** | Spencer says the Nabers Word | count 12 — only 2 teams left without a QB |
 | 96 | Mark Andrews TE BAL | Barklie Kirk | |
 | 97 | Jonathon Brooks RB CAR | Amon Raw Doggin | |
+
+**Roster after 99:** QB Burrow · RB Barkley · RB Jeanty · WR Egbuka · WR McConkey · TE LaPorta · FLEX Diggs · D/ST DEN
+**Still needed:** K + 4 bench, from picks 126, 127, 154, 155, 182
+**Bye map:** 6 Burrow+LaPorta · 7 McConkey+Diggs · 10 Barkley+Egbuka+DEN · 13 Jeanty
+**RB depth: ONLY 2. Biggest fragility.**
 
 **Team name confirmed: "I Love 2 J. Goff" = me.**
 
