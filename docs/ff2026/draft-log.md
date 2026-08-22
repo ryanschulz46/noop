@@ -33,6 +33,14 @@ _(QB count tracking + who took the fades)_
 
 | Overall | Player | Drafted by | Why it matters |
 |---|---|---|---|
+| 1 | Jahmyr Gibbs RB DET | Hawk Tua and Pitt on That Thang | chalk |
+| 2 | Bijan Robinson RB ATL | Throwsa Parks | chalk |
+| 3 | Ja'Marr Chase WR CIN | King of Kips Bay | chalk |
+| 4 | Jaxon Smith-Njigba WR SEA | First Down Syndrome | WR run starts |
+| 5 | Puka Nacua WR LAR | ACLoholics Anonymous | |
+| 6 | Jonathan Taylor RB IND | Critical Chase Theory | |
+| 7 | Amon-Ra St. Brown WR DET | Rachaad White Powr | slight reach vs ADP 16.8 |
+| 8 | De'Von Achane RB MIA | Taint Hair | someone else ate the Miami risk — good |
 
 ## QB counter
 
