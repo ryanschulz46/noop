@@ -64,7 +64,11 @@ _(QB count tracking + who took the fades)_
 | 33 | George Pickens WR DAL | ACLoholics Anonymous | |
 | 34 | Zay Flowers WR BAL | Critical Chase Theory | |
 | 35 | Travis Etienne Jr. RB NO | Rachaad White Powr | |
+| 36 | Garrett Wilson WR NYJ | Taint Hair | primary 42 target gone |
+| 37 | Davante Adams WR LAR | Intentionally Terrible | |
+| 38 | Breece Hall RB NYJ | Feather, Cap, and Hog Reveal | |
+| 39 | Malik Nabers WR NYG | Spencer says the Nabers Word | |
 
 ## QB counter
 
-Gone after pick 35: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
+Gone after pick 39: 1 (Allen@30) — **trigger: 4+ gone at pick 42 → take QB at 42/43**
